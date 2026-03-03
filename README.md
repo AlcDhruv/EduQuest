@@ -2,6 +2,20 @@
 
 A beautiful, interactive educational gaming platform designed for middle school students to learn through play. Students can scan QR codes from their NCERT textbooks to access topic-specific games.
 
+## PlayFUN — Next.js + Phaser
+
+PlayFUN is a web adaptation of the original PlayFUN app (which was implemented in Flutter). This repository implements PlayFUN using Next.js and Phaser to deliver lightweight, browser-based educational games.
+
+- **Tech stack:** Next.js 14, TypeScript, Tailwind CSS, Phaser 3, Firebase (planned).
+- **Games implemented so far:** `components/games/LinearEquationGame.tsx`, `components/games/PizzaPartyGame.tsx`, `components/games/PrimeTreasureGame.tsx`.
+- **How to run:**
+
+   1. Install dependencies: `npm install`
+   2. Run the dev server: `npm run dev`
+   3. Open `http://localhost:3000` in your browser.
+
+This project preserves the PlayFUN learning experience but targets the web (Next.js + Phaser) instead of Flutter — ideal for quick access on desktops and mobile browsers.
+
 ## 🎨 Design Features
 
 - **Bold & Playful Aesthetic**: Vibrant gradient colors, playful typography (Fredoka + DM Sans), and engaging animations
@@ -265,28 +279,3 @@ Modify animations in `tailwind.config.ts` and `app/globals.css`
 - [ ] Add analytics for learning progress
 - [ ] Support for multiple grade levels
 - [ ] Multi-language support
-
-## 📖 For Hackathon Judges
-
-This is a **semi-functional prototype** demonstrating:
-
-✅ **Beautiful, engaging UI/UX** designed for middle school students  
-✅ **Complete navigation flow** from landing → subject → topic → game  
-✅ **QR code generation system** for textbook integration  
-✅ **Responsive design** that works on all devices  
-✅ **Admin panel** for educators to create QR codes  
-✅ **Scalable architecture** ready for Phaser game integration  
-
-The core innovation is the **seamless integration between physical textbooks and digital games** through QR codes, making learning interactive and fun while aligned with curriculum (NCERT).
-
-## 📄 License
-
-This project is created for educational purposes as part of a hackathon.
-
-## 🤝 Contributing
-
-This is a hackathon project, but suggestions and improvements are welcome!
-
----
-
-**Built with ❤️ for middle school learners**
